@@ -44,4 +44,5 @@ for (var i=0; i < shapes.length; i++) {
 }
 ```
 
+Result:
 ![Output](http://i.imgur.com/1M4UAnz.png)
