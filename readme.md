@@ -25,8 +25,8 @@ var Lato = require('./myfonts/Lato-Bold.ttf.json');
 
 var decompose = require('fontpath-shape2d');
 
-//decompose the letter "A"
-var glyph = Lato.glyphs["A"];
+//decompose a glyph
+var glyph = Lato.glyphs["b"];
 var shapes = decompose(glyph, {
 	steps: 20
 });
@@ -43,3 +43,5 @@ for (var i=0; i < shapes.length; i++) {
 	}
 }
 ```
+
+![Output](http://i.imgur.com/1M4UAnz.png)
