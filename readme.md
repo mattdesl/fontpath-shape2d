@@ -2,19 +2,6 @@
 
 Decompose a glyph outline generated from [fontpath](https://github.com/mattdesl/fontpath) into a discrete set of points, using [shape2d](https://github.com/mattdesl/fontpath).
 
-See the [demo](demo/main.js) for details. To run it, cd to this directory, and run the following:
-
-```
-#install the tools globally
-npm install beefy browserify -g
-
-#install our dependencies
-npm install
-
-#now run the demo
-beefy demo/main.js
-```
-
 The curve/bezier approximation and simplification algorithms are very crude, but performant and sufficient for simple output.
 
 # example
@@ -42,6 +29,23 @@ for (var i=0; i < shapes.length; i++) {
 		//...
 	}
 }
+```
+
+# demo
+
+For a complete example, see [demo](demo/main.js). You can run it with beefy:
+
+```
+cd fontpath-shape2d
+
+#install the tools globally
+npm install beefy browserify -g
+
+#install our dependencies
+npm install
+
+#now run the demo
+beefy demo/main.js
 ```
 
 Result:  
