@@ -1,0 +1,43 @@
+{
+  "name": "fontpath-shape2d",
+  "version": "0.0.0",
+  "description": "Decomposes vector font into discrete points",
+  "main": "index.js",
+  "dependencies": {
+    "fontpath-util": "~0.0.0",
+    "canvas-testbed": "~0.0.2",
+    "vecmath": "~0.1.1",
+    "fontpath-test-fonts": "~0.0.0",
+    "shape2d": "0.0.2"
+  },
+  "devDependencies": {
+    "vecmath": "^0.1.1",
+    "canvas-testbed": "0.0.2",
+    "fontpath-vecmath": "0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattdesl/fontpath-shape2d"
+  },
+  "keywords": [
+    "fontpath",
+    "font",
+    "vector",
+    "path",
+    "outline",
+    "decompose",
+    "glyph",
+    "ttf",
+    "otf",
+    "woff"
+  ],
+  "author": "Matt DesLauriers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattdesl/fontpath-shape2d/issues"
+  },
+  "homepage": "https://github.com/mattdesl/fontpath-shape2d"
+}
