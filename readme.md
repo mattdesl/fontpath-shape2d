@@ -1,6 +1,6 @@
 # about
 
-Decompose a glyph outline generated from [fontpath](https://github.com/mattdesl/fontpath) into a discrete set of points, using [shape2d](https://github.com/mattdesl/fontpath).
+Decompose a glyph outline generated from [fontpath](https://github.com/mattdesl/fontpath) into a discrete set of points, using [shape2d](https://github.com/mattdesl/shape2d).
 
 The curve/bezier approximation and simplification algorithms are very crude, but performant and sufficient for simple output.
 
