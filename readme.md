@@ -33,9 +33,9 @@ for (var i=0; i < shapes.length; i++) {
 
 # demo
 
-For a complete example, see [demo](demo/main.js). You can run it with beefy:
+For a complete example, see the [demo](demo/main.js). You can run it with beefy:
 
-```
+```bash
 cd fontpath-shape2d
 
 #install the tools globally
