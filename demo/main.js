@@ -5,10 +5,10 @@ var Vector2 = require('vecmath').Vector2;
 var toGlyphMatrix3 = require('fontpath-vecmath').toGlyphMatrix3;
 var decompose = require('../index');
 
-var TestFont = require('fontpath-test-fonts/lib/OpenBaskerville-0.0.53.ttf');
+var TestFont = require('fontpath-test-fonts/lib/OpenBaskerville-0.0.75.ttf');
 
 var tmpVec = new Vector2();
-var glyph = TestFont.glyphs["b"];
+var glyph = TestFont.glyphs["a"];
 
 var shapes = decompose(glyph, {
 	steps: 20,
@@ -22,11 +22,12 @@ for (var i=0; i<shapes.length; i++) {
 }
 
 //Setup a simple glyph matrix to scale from EM to screen pixels...
-var glyphMatrix = toGlyphMatrix3(TestFont, glyph, 128, 20, 200);
+//You can also just use fontpath-util directly, without using vecmath modules
+var glyphMatrix = toGlyphMatrix3(TestFont, glyph, 200, 20, 200);
 
 function render(context, width, height) {
 	context.clearRect(0, 0, width, height);
-
+	console.log(shapes.length);
 	for (var i=0; i<shapes.length; i++) {
 		var s = shapes[i];
 		for (var j=0; j<s.points.length; j++) {

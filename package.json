@@ -4,13 +4,11 @@
   "description": "Decomposes vector font into discrete points",
   "main": "index.js",
   "dependencies": {
-    "fontpath-util": "~0.0.0",
-    "canvas-testbed": "~0.0.2",
-    "vecmath": "~0.1.1",
-    "fontpath-test-fonts": "~0.0.0",
     "shape2d": "0.0.2"
   },
   "devDependencies": {
+    "vecmath": "~0.1.1",
+    "fontpath-test-fonts": "0.0.2",
     "vecmath": "^0.1.1",
     "canvas-testbed": "0.0.2",
     "fontpath-vecmath": "0.0.0",
