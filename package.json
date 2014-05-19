@@ -1,15 +1,14 @@
 {
   "name": "fontpath-shape2d",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Decomposes vector font into discrete points",
   "main": "index.js",
   "dependencies": {
     "shape2d": "0.0.2"
   },
   "devDependencies": {
-    "vecmath": "~0.1.1",
-    "fontpath-test-fonts": "0.0.2",
     "vecmath": "^0.1.1",
+    "fontpath-test-fonts": "0.0.2",
     "canvas-testbed": "0.0.2",
     "fontpath-vecmath": "0.0.0",
     "tap": "^0.4.9"
