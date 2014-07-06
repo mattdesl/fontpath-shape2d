@@ -4,7 +4,7 @@
   "description": "Decomposes vector font into discrete points",
   "main": "index.js",
   "dependencies": {
-    "shape2d": "0.0.2"
+    "shape2d": "0.0.5"
   },
   "devDependencies": {
     "vecmath": "^0.1.1",
